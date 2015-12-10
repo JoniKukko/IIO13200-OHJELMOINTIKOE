@@ -20,4 +20,5 @@ Kaikki kuuluu kuten kuuluukin
 
 Tehtävä 3: 10/15
 Nämä toimii: webconfig, etusivu, kirjautuminen, kokonaislukumäärä, lisääminen, omien harjoitusten listaus ja summa
+
 Ja muut jäi kesken.. :(

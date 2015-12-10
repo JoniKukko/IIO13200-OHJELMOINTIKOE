@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="T3LoggedIn.master.cs" Inherits="T3LoggedIn" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <img src="Images/hiihto.gif" alt="Hieno hiihtokuva" />
+        <h1>Kirjautunut <asp:Label ID="labelUsername" runat="server"></asp:Label></h1>
+
+        <ul>
+            <li><a href="H3247_T3a_LoggedIn.aspx">Etusivu</a></li>
+            <li><a href="H3247_T3a_AddNew.aspx">Lisää uusi</a></li>
+            <li><a href="">Harjoitukset</a></li>
+            <li><a href="H3247_T3a_Practices.aspx">Omat harjoitukset</a></li>
+            <li><asp:LinkButton  ID="buttonLogout" runat="server" Text="Kirjaudu ulos" OnClick="buttonLogout_Click" /></li>
+        </ul>
+        <asp:Label ID="labelMessages" runat="server"></asp:Label>
+    
+        <asp:ContentPlaceHolder id="body" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

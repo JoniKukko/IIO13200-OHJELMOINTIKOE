@@ -11,3 +11,13 @@ Tehtävä 3: max 15
 
 Palauttamisen jälkeen käy vielä tekemässä Socrative-kysely.
 Onnea ja menestystä kokeeseen.
+
+Tehtävä 1: 10/10
+Kaikki toimii kuten kuuluukin
+
+Tehtävä 2: 12/12
+Kaikki kuuluu kuten kuuluukin
+
+Tehtävä 3: 10/15
+Nämä toimii: webconfig, etusivu, kirjautuminen, kokonaislukumäärä, lisääminen, omien harjoitusten listaus ja summa
+Ja muut jäi kesken.. :(
